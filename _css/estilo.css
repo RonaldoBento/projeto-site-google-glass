@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+/* Formatação em CSS*/
+/*Formatação do Corpo body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);  
+}
+
+/*Formatação da Interface*/
+div#interface {
+    width: 1200px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+/*Formatação de paragrafo*/
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/*Formatação do Link a*/
+a {
+    color: #606060;
+    text-decoration: none;
+    font: bolder ;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Formatação de header cabeçalho*/
+header#cabecalho img#icone {
+    position: absolute;
+    left: 950px;
+    top: 50px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 double;
+    height: 200px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 10px 100px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo';
+    font-size: 35pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Formatção de Imagens e Legendas*/
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatção do Menu*/
+nav#menu {
+    display: block;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a :hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;  
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+/*Formatação da Section Seção Corpo*/
+section#corpo {
+    display: block;
+    width: 650px;
+    float: left;
+    border-right: 1px double #606060 ;
+    padding-right: 15px ;
+}
+
+/*Formatação do Artigo Principal Article*/
+article#noticia h2 {
+    font-size: 15pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+/*Formatação do Header Cabeçalho */
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 25pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+    background-color: #ffffff;
+    font-size: 15pt;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 15pt;
+    color: #606060;
+}
+.direita{
+    text-align: right;
+}
+
+/*Formatação de Tabela*/
+table#tabelaspec {
+    border: 1px double #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060 ;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+    font-weight: bold;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+/*Formatando Video*/
+video#filme01 {
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 0px;
+    width: 440px;
+}
+
+/*Formatção do Aside Lateral*/
+aside#lateral {
+    display: block;
+    width: 460px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+
+aside#lateral h1 {
+    margin-top: 0px;
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 25pt;
+    color: #606060;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 15pt;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/*Formatando Video*/
+video#filme02 {
+    display: block;
+    position: relative;
+    left: 10px;
+    top: 8px;
+    width: 440px;
+}
+
+/*Formatação do Footer Rodapé */
+footer#rodape {
+    clear: both;
+    border-top: 1px double #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}

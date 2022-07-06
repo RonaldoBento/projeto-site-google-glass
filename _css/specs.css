@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*Formatação da Seção Conteúdo section-conteudo*/
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+
+/*Formatação do Iframe*/
+iframe#frame-spec {
+    width: 400px;
+    height: 300px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}

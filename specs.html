@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/specs.css">
+    <script src="_javascript/funcoes.js"></script>
+    <title>Tudo sobre o Google Glass</title>
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src="_imagens/especificacoes.png" alt="exemplo de imagem.png">
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmousemove="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html"><strong>Home</strong></a></li>
+                    <li onmousemove="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html"><strong>Especificações</strong></a></li>
+                    <li onmousemove="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos.html"><strong>Fotos</strong></a></li>
+                    <li onmousemove="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia.html"><strong>Multimídia</strong></a></li>
+                    <li onmousemove="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco.html"><strong>Fale conosco</strong></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo-full"> 
+            <article id="noticia">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Especificações</h3>
+                        <h1>Raio-X no Google Glass</h1>
+                        <h2>Por Ronaldo Rodrigues Bento</h2>
+                        <h3 class="direita">Atualizado em 29/maio/2022</h3>
+                    </hgroup>
+                    <p>Clique em qualquer área destacada da imagem para ter mais informa&shy;ções sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                    <section id="conteudo">
+                        <img src="_imagens/glass-esquema-marcado.jpg" alt="foto-glass-esquema-marcado.jpg" usemap="#meumapa">
+                        <map name="meumapa">
+                            <area shape="rect" coords="175,200,260,270" href="google-glass.html#tela" alt="glass-esquema-marcado.jpg" target="janela">
+                            <area shape="circle" coords="155,240,12" href="google-glass.html#camera" alt="glass-esquema-marcado.jpg" target="janela">
+                            <area shape="circle" coords="73,53,12" href="google-glass.html#gadgets" alt="glass-esquema-marcado.jpg" target="janela">
+                            <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" alt="glass-esquema-marcado.jpg" target="janela">
+                        </map>
+                        <iframe src="google-glass.html" name="janela" id="frame-spec" frameborder="0"></iframe>
+                    </section>
+                </header>
+            </article>
+        </section>
+        <footer id="rodape">
+            <p><strong>Copyright</strong> &copy; 2022 - by Ronaldo Rodrigues Bento</p>
+            <p> <img src="icone-facebook.png" alt="icone do facebbok " ><a href="https://www.facebook.com/" target="_blank" rel="external" title="Facebook"> <em>Facebook</em></a> | 
+                <img src="icone-twitter.png" alt="icone do twitter"><a href="https://twitter.com" target="_blank" rel="external" title="Twitter"> <em>Twitter</em></a> | 
+                <img src="icone-instagram.png" alt="icone do instagram">  <a href="https://instagram.com" target="_blank" rel="external" title="Instagram"><em>Instagram</em></a>| 
+                <img src="icone-github.png" alt="icone do github"><a href="https://github.io" target="_blank" rel="external" title="GitHub"> GitHub</a>  | 
+                <img src="icone-youtube.png" alt="icone do youtube"><a href="https://youtube.com" target="_blank" rel="external" title="YouTube"> YouTube</a> | 
+                <img src="icone-linkedin.png" alt="icone do linkedin"><a href="https://linkedin" target="_blank" rel="external" title="Linkedin"> Linkedin</a></p>
+        </footer>
+    </div>
+</body>
+</html>
