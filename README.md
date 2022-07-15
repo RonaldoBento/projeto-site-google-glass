@@ -10,5 +10,5 @@ o conteúdo disponibilizado.
 
 <a href="https://ronaldobento.github.io/projeto-site-google-glass/index.html" target="_blank" rel="external" title="site google glass"><strong>site google glass</strong></a><br>
 
+<img align="center" src="frame.png" alt="qr code do site no formato png"><br>
 
-<img align="center" alt="qr code do site no formato png" src="frame.png"/><br>
