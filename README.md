@@ -6,6 +6,8 @@
 <br><img src="logo-bento-projeto.png" alt="logo bento-projeto no formato png"><br>
 
 
+<h2>:bookmark_tabs: Descrição</h2>
+
 <br><p>Realizado no ano de 2013 pelo professor <em><strong>Gustavo Guanabara</strong></em> com 38 vídeos sem disponibilizar códigos prontos, ou seja, cada semana era lançado um vídeo mostrando passo a passo a criação de um site completo utilizando as três principais tecnologias do momento <strong>HTML5 + CSS3 + JavaScript</strong> de uma maneira simples e objetiva. Em 2022 atualizei e modifiquei o projeto com novas tags, scripts e imagens.</p>
 
 <br><img src="logo.jpg" alt="pagina no formato jpeg"><br>
