@@ -53,7 +53,7 @@ header#cabecalho {
 
 header#cabecalho h1 {
     font-family: 'FonteLogo';
-    font-size: 35pt;
+    font-size: 2.2em;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
     padding: 0px;
@@ -62,7 +62,7 @@ header#cabecalho h1 {
 
 header#cabecalho h2 {
     font-family: 'FonteLogo';
-    font-size: 20pt;
+    font-size: 1.5em;
     color: #888888;
     padding: 0px;
     margin-top: 0px;
@@ -147,7 +147,7 @@ section#corpo {
 
 /*Formatação do Artigo Principal Article*/
 article#noticia h2 {
-    font-size: 15pt;
+    font-size: 1.5em;
     color: #606060;
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
@@ -157,7 +157,7 @@ article#noticia h2 {
 /*Formatação do Header Cabeçalho */
 header#cabecalho-artigo h1 {
     font-family: 'FonteLogo', sans-serif;
-    font-size: 25pt;
+    font-size: 1.5em;
     color: #606060;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -165,12 +165,12 @@ header#cabecalho-artigo h1 {
 
 header#cabecalho-artigo h2 {
     background-color: #ffffff;
-    font-size: 15pt;
+    font-size: 1em;
     margin: 0px;
 }
 
 header#cabecalho-artigo h3 {
-    font-size: 15pt;
+    font-size: 1em;
     color: #606060;
 }
 .direita{
@@ -206,7 +206,7 @@ table#tabelaspec td.cd {
 
 table#tabelaspec caption {
     color: #888888;
-    font-size: 15pt;
+    font-size: 1em;
     font-weight: bolder;
 }
 
@@ -214,7 +214,7 @@ table#tabelaspec caption span {
     display: block;
     float: right;
     color: #000000;
-    font-size: 10pt;
+    font-size: 1em;
     margin-top: 10px;
 }
 
@@ -241,13 +241,13 @@ aside#lateral {
 aside#lateral h1 {
     margin-top: 0px;
     font-family: 'FonteLogo', sans-serif;
-    font-size: 25pt;
+    font-size: 1em;
     color: #606060;
 }
 
 aside#lateral h2 {
     background-color: #606060;
-    font-size: 15pt;
+    font-size: 1em;
     color: #ffffff;
     padding: 10px;
 }
