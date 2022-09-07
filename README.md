@@ -1,6 +1,6 @@
 # projeto-site-google-glass
 
-## Projeto atualizado e modificado do canal curso em vídeo.<br>
+## Projeto atualizado e modificado do canal Curso em Vídeo.<br>
 
 
 <br><img src="logo-bento-projeto.png" alt="logo bento-projeto no formato png"><br>
@@ -20,7 +20,7 @@
  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RonaldoBento/projeto-site-google-glass/blob/main/LICENSE) 
  
  
-<p align="center">Você tem todo o direito de usar esse material para seu próprio aprendizado. Espero que seja útil o conteúdo disponibilizado.<p> 
+<p>Você tem todo o direito de usar esse material para seu próprio aprendizado. Espero que seja útil o conteúdo disponibilizado.<p> 
 
 <a href="https://ronaldobento.github.io/projeto-site-google-glass/index.html" target="_blank" rel="external" title="Clique aqui para entrar no site do projeto google glass"><strong>Clique aqui para entrar no site do projeto Google Glass ou utilize o QR Code abaixo</strong></a><br>
 
